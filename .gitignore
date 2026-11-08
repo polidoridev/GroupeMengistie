@@ -1,0 +1,13 @@
+# macOS metadata
+.DS_Store
+
+# Dependencies and generated output
+node_modules/
+dist/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+!.env.sample
+.dev.vars

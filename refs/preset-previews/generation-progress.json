@@ -1,0 +1,146 @@
+{
+  "status": "complete",
+  "palettes": [
+    "Silver",
+    "Graphite",
+    "Pearl",
+    "Ocean",
+    "Sage",
+    "Copper"
+  ],
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "completed": [
+    {
+      "room": "garage",
+      "finish": "metallic",
+      "view": 0,
+      "filename": "garage-metallic-0.webp",
+      "job_id": "891fa0e2-619a-44a9-9c24-8d69ecfab7e4",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_191158_891fa0e2-619a-44a9-9c24-8d69ecfab7e4.png"
+    },
+    {
+      "room": "garage",
+      "finish": "metallic",
+      "view": 1,
+      "filename": "garage-metallic-1.webp",
+      "job_id": "b904968b-e2c9-48da-95be-b711c4119d0b",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_191233_b904968b-e2c9-48da-95be-b711c4119d0b.png"
+    },
+    {
+      "room": "garage",
+      "finish": "flake",
+      "view": 0,
+      "filename": "garage-flake-0.webp",
+      "job_id": "3f8c641e-24e5-4201-877f-2bab30fcf566",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_192354_3f8c641e-24e5-4201-877f-2bab30fcf566.png"
+    },
+    {
+      "room": "garage",
+      "finish": "flake",
+      "view": 1,
+      "filename": "garage-flake-1.webp",
+      "job_id": "f96bb199-0997-44f0-961f-0d793c9ca97b",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_191233_f96bb199-0997-44f0-961f-0d793c9ca97b.png"
+    },
+    {
+      "room": "kitchen",
+      "finish": "metallic",
+      "view": 0,
+      "filename": "kitchen-metallic-0.webp",
+      "job_id": "6286236e-8974-4890-92f8-775a6fa66015",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_191233_6286236e-8974-4890-92f8-775a6fa66015.png"
+    },
+    {
+      "room": "kitchen",
+      "finish": "metallic",
+      "view": 1,
+      "filename": "kitchen-metallic-1.webp",
+      "job_id": "1b863116-2dd8-45ed-b5b8-a2b57196ce73",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_192354_1b863116-2dd8-45ed-b5b8-a2b57196ce73.png"
+    },
+    {
+      "room": "kitchen",
+      "finish": "flake",
+      "view": 0,
+      "filename": "kitchen-flake-0.webp",
+      "job_id": "335d2594-bfe0-432f-8303-0103b859a4dc",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_192354_335d2594-bfe0-432f-8303-0103b859a4dc.png"
+    },
+    {
+      "room": "kitchen",
+      "finish": "flake",
+      "view": 1,
+      "filename": "kitchen-flake-1.webp",
+      "job_id": "d1e524ba-014b-4964-8dd5-a9eebdd33662",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_192354_d1e524ba-014b-4964-8dd5-a9eebdd33662.png"
+    },
+    {
+      "room": "bathroom",
+      "finish": "metallic",
+      "view": 0,
+      "filename": "bathroom-metallic-0.webp",
+      "job_id": "015ebd7a-7705-4b3c-ab46-134d230e5c59",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_192354_015ebd7a-7705-4b3c-ab46-134d230e5c59.png"
+    },
+    {
+      "room": "bathroom",
+      "finish": "metallic",
+      "view": 1,
+      "filename": "bathroom-metallic-1.webp",
+      "job_id": "a9982b38-e036-45e1-af88-1532adea9896",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_192354_a9982b38-e036-45e1-af88-1532adea9896.png"
+    },
+    {
+      "room": "bathroom",
+      "finish": "flake",
+      "view": 0,
+      "filename": "bathroom-flake-0.webp",
+      "job_id": "3ae16957-b93a-48c2-bb10-5bd9fab8f5d7",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_192357_3ae16957-b93a-48c2-bb10-5bd9fab8f5d7.png"
+    },
+    {
+      "room": "bathroom",
+      "finish": "flake",
+      "view": 1,
+      "filename": "bathroom-flake-1.webp",
+      "job_id": "19bc2413-7c30-46d0-bbc7-24f6acf00b9e",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_192356_19bc2413-7c30-46d0-bbc7-24f6acf00b9e.png"
+    },
+    {
+      "room": "basement",
+      "finish": "metallic",
+      "view": 0,
+      "filename": "basement-metallic-0.webp",
+      "job_id": "d7bbcea0-b578-4ea4-a7f7-49c87c20044d",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_192358_d7bbcea0-b578-4ea4-a7f7-49c87c20044d.png"
+    },
+    {
+      "room": "basement",
+      "finish": "metallic",
+      "view": 1,
+      "filename": "basement-metallic-1.webp",
+      "job_id": "cf6684a4-8c08-4886-b700-a3c689c1856e",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_192358_cf6684a4-8c08-4886-b700-a3c689c1856e.png"
+    },
+    {
+      "room": "basement",
+      "finish": "flake",
+      "view": 0,
+      "filename": "basement-flake-0.webp",
+      "job_id": "7f4a72fe-a587-451a-9cce-88d12ca7d0d1",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_192357_7f4a72fe-a587-451a-9cce-88d12ca7d0d1.png"
+    },
+    {
+      "room": "basement",
+      "finish": "flake",
+      "view": 1,
+      "filename": "basement-flake-1.webp",
+      "job_id": "35fc605f-6b41-469f-b36c-02b7e50bef5b",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20261107_192357_35fc605f-6b41-469f-b36c-02b7e50bef5b.png"
+    }
+  ],
+  "remaining": []
+}
