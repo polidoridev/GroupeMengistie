@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Outlet,createRootRouteWithContext,useRouter,HeadContent,Scripts } from "@tanstack/react-router";
+import { Outlet,createRootRouteWithContext,useRouter,HeadContent,Scripts,type ErrorComponentProps } from "@tanstack/react-router";
 import {useEffect,type ReactNode} from "react";
 import appCss from "../styles.css?url";
 import {reportHiggsfieldError} from "../lib/higgsfield-error-reporting";
@@ -8,7 +8,7 @@ import { brandColour } from "../floor-data";
 declare const __HF_DESIGN_INSPECTOR__:boolean;
 const origin="https://groupe-mengistie.higgsfield.app";
 function NotFound(){return <main className="mengistie section-space"><h1>Page not found</h1><p>Return to the floor studio to explore your finish.</p><a href="/">Back to home</a></main>}
-function ErrorPage({reset}:{error:Error;reset:()=>void}){const router=useRouter();return <main className="mengistie section-space"><h1>This page could not load.</h1><button onClick={()=>{router.invalidate();reset();}}>Try again</button><p><a href="tel:+15147025044">Call 514-702-5044</a></p></main>}
+function ErrorPage({reset}:ErrorComponentProps){const router=useRouter();return <main className="mengistie section-space"><h1>This page could not load.</h1><button onClick={()=>{router.invalidate();reset();}}>Try again</button><p><a href="tel:+15147025044">Call 514-702-5044</a></p></main>}
 export const Route=createRootRouteWithContext<{queryClient:QueryClient}>()({
 head:()=>({meta:[
 {charSet:"utf-8"},{name:"viewport",content:"width=device-width, initial-scale=1"},
