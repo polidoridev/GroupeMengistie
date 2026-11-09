@@ -6,6 +6,7 @@ interface AppSearch {
 }
 
 export const Route = createFileRoute("/app")({
+  head:()=>({meta:[{name:"robots",content:"noindex, nofollow"}]}),
   validateSearch: (search: Record<string, unknown>): AppSearch => ({
     preview: search.preview === "1" || search.preview === true,
   }),

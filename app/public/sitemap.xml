@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://www.groupemengistie.com/</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.groupemengistie.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.groupemengistie.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.groupemengistie.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.groupemengistie.com/"/>
+  </url>
+  <url>
+    <loc>https://www.groupemengistie.com/fr</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.groupemengistie.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.groupemengistie.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.groupemengistie.com/"/>
+  </url>
+</urlset>

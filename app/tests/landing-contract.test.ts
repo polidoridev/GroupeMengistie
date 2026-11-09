@@ -26,7 +26,8 @@ describe("scroll-scrub website landing contract", () => {
 
     // scroll-scrub's home IS the site: "/" renders the journey instead of the
     // stock LandingPage. Everything else about the split is unchanged.
-    expect(landingRoute).toContain("ScrollScrub");
+    expect(landingRoute).toContain("HomePage");
+    expect(readFileSync(new URL("../src/features/site/home.tsx", import.meta.url), "utf8")).toContain("ScrollScrub");
     expect(appRoute).toContain('createFileRoute("/app")');
     expect(appRoute).toContain("previewMode");
   });

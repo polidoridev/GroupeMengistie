@@ -1,27 +1,3 @@
 import { createFileRoute } from "@tanstack/react-router";
-
-export const Route = createFileRoute("/sitemap.xml")({
-  server: {
-    handlers: {
-      GET: async () => {
-        const origin = "https://www.groupemengistie.com";
-        const xml = [
-          '<?xml version="1.0" encoding="UTF-8"?>',
-          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-          "  <url>",
-          `    <loc>${origin}/</loc>`,
-          "    <changefreq>weekly</changefreq>",
-          "    <priority>1.0</priority>",
-          "  </url>",
-          "</urlset>",
-        ].join("\n");
-        return new Response(xml, {
-          headers: {
-            "Content-Type": "application/xml; charset=utf-8",
-            "Cache-Control": "public, max-age=3600",
-          },
-        });
-      },
-    },
-  },
-});
+import sitemap from "../../public/sitemap.xml?raw";
+export const Route = createFileRoute("/sitemap.xml")({server:{handlers:{GET:async()=>new Response(sitemap,{headers:{"Content-Type":"application/xml; charset=utf-8","Cache-Control":"public, max-age=3600"}})}}});
